@@ -1,0 +1,22 @@
+pipeline{
+  agent any
+  stages {
+    stage ("build"){
+      steps{
+        echo "========> Build step ..."
+      }
+    }
+        stage ("Test"){
+      steps{
+        echo "========> Build step ..."
+      }
+    }
+        stage ("build"){
+      steps{
+        echo "========> Build step ..."
+      }
+    }
+    
+   }
+
+}
